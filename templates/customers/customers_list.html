@@ -1,0 +1,36 @@
+{% extends 'main.html' %}
+{% block title %}
+	Customers List | VSM
+{% endblock title%}
+{% block content %}
+  <h1>Customer List</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Points</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for customer in customers %}
+        <tr>
+          <td>{{ customer.fname }}</td>
+          <td>{{ customer.lname }}</td>
+          <td>{{ customer.phone_number }}</td>
+ 		  <td>{{ customer.get_address }}</td>
+          <td>{{ customer.loyalty_points }}</td>
+          <td>
+          	<a href="{% url 'customers:customer_edit' customer.id %}">Modify</a> |
+            <a href="{% url 'customers:customer_delete' customer.id %}">Delete</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+	
+{% endblock %}
+

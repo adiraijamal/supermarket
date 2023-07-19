@@ -1,0 +1,29 @@
+{% extends 'main.html' %}
+{% block title %}
+  Purchase List | VSM
+{% endblock title %}
+{% block content %}
+<h1>Purchase List</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Vendor</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for purchase in purchases %}
+    <tr>
+      <td>{{ purchase.product.name }}</td>
+      <td>{{ purchase.vendor.name }}</td>
+      <td>{{ purchase.quantity }}</td>
+      <td>{{ purchase.cost_price }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

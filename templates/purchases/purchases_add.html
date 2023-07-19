@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+{% block title %}
+  Purchases | VSM
+{% endblock title %}
+{% block content %}
+<form method="post">
+  {% csrf_token %}
+  <table>
+    {{ form.as_table }}
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Cost Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for form in formset %}
+        <tr>
+          <td>{{ form.product }}</td>
+          <td>{{ form.cost_price }}</td>
+          <td>{{ form.quantity }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <button type="submit">Submit</button>
+</form>
+
+{% endblock %}

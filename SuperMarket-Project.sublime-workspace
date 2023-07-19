@@ -1,0 +1,253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pur",
+				"purchase"
+			],
+			[
+				"m",
+				"models"
+			],
+			[
+				"ve",
+				"vendors"
+			],
+			[
+				"De",
+				"Description"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"d",
+				"door_no"
+			],
+			[
+				"D",
+				"Door"
+			],
+			[
+				"C",
+				"Customer"
+			],
+			[
+				"dro",
+				"dropdown"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Selection: Add Previous Line"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Learn/supermarket",
+		"/D/Learn/supermarket/supermarket",
+		"/D/Learn/supermarket/templates"
+	],
+	"file_history":
+	[
+		"/D/Learn/myproject/templates/purchases/purchases_add.html",
+		"/D/Learn/myproject/templates/products/products_add.html",
+		"/D/Learn/myproject/purchases/models.py",
+		"/D/Learn/myproject/products/models.py",
+		"/D/Learn/myproject/templates/navbar.html",
+		"/D/Learn/myproject/templates/purchases/purchase_list.html",
+		"/D/Learn/myproject/purchases/views.py",
+		"/D/Learn/myproject/products/migrations/0001_initial.py",
+		"/D/Learn/myproject/supermarket/urls.py",
+		"/D/Learn/myproject/supermarket/settings.py",
+		"/D/Learn/myproject/templates/purchases/purchase_add.html",
+		"/D/Learn/myproject/purchases/urls.py",
+		"/D/Learn/myproject/purchases/forms.py",
+		"/D/Learn/myproject/products/forms.py",
+		"/D/Learn/myproject/products/admin.py",
+		"/D/Learn/myproject/templates/products/products_delete.hmtl",
+		"/D/Learn/myproject/templates/products/products_list.html",
+		"/D/Learn/myproject/templates/products/products_edit.html",
+		"/D/Learn/myproject/products/views.py",
+		"/D/Learn/myproject/products/urls.py",
+		"/D/Learn/myproject/vendors/models.py",
+		"/D/Learn/myproject/templates/vendors/vendors_add.html",
+		"/D/Learn/myproject/templates/vendors/vendors_delete.html",
+		"/D/Learn/myproject/templates/vendors/vendors_edit.html",
+		"/D/Learn/myproject/templates/vendors/vendors_list.html",
+		"/D/Learn/myproject/vendors/views.py",
+		"/D/Learn/myproject/vendors/forms.py",
+		"/D/Learn/myproject/vendors/urls.py",
+		"/D/Learn/myproject/templates/customers/customers_edit.html",
+		"/D/Learn/myproject/customers/forms.py",
+		"/D/Learn/myproject/templates/customers/customers_list.html",
+		"/D/Learn/myproject/customers/views.py",
+		"/D/Learn/myproject/templates/customers/customers_add.html",
+		"/D/Learn/myproject/customers/models.py",
+		"/D/Learn/myproject/static/css/styles.css",
+		"/D/Learn/myproject/customers/admin.py",
+		"/D/Learn/myproject/templates/main.html",
+		"/D/Learn/myproject/templates/index.html",
+		"/D/Learn/myproject/customers/urls.py",
+		"/D/Learn/myproject/templates/customers/customers_list.html.txt",
+		"/D/Learn/shopkart/myproject/settings.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SuperMarket-Project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+{% block title %}
+  Delete Product | VSM
+{% endblock title %}
+{% block content %}
+<p>Are you sure you want to delete "{{ product.name }}"?</p>
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Delete</button>
+  <a href="{% url 'products:product_list' %}">Cancel</a>
+</form>
+{% endblock %}

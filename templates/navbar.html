@@ -1,0 +1,59 @@
+<!-- Example single danger button -->
+<div class="dropdown">
+  <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" >Customers</button>
+  <div class="dropdown-content">
+      <a class="dropdown-item" href="{% url 'customers:customer_list' %}">Customer List</a>
+      <a class="dropdown-item" href="{% url 'customers:customer_add' %}">Add Customer</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" >
+    Vendors
+  </button>
+    <div class="dropdown-content">
+      <a class="dropdown-item" href="{% url 'vendors:vendor_list' %}">Vendor List</a>
+      <a class="dropdown-item" href="{% url 'vendors:vendor_add' %}">Add Vendor</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >
+    Products
+  </button>
+    <div class="dropdown-content">
+    <a class="dropdown-item" href="{% url 'products:product_list' %}">product List</a>
+    <a class="dropdown-item" href="{% url 'products:product_add' %}">Add product</a>
+    </div>
+  </div>
+  
+  <div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" >
+    Purchases
+  </button>
+    <div class="dropdown-content">
+    <a class="dropdown-item" href="{% url 'purchase:purchase_list' %}">purchase List</a>
+    <a class="dropdown-item" href="{% url 'purchase:purchase_add' %}">Add purchase</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" >
+    Sales
+  </button>
+    <div class="dropdown-content">
+      <a class="dropdown-item" href="#">Sales List</a>
+      <a class="dropdown-item" href="#">Add Sales</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown" style="float:right;">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Home</button>
+    <div class="dropdown-content">
+      <a class="dropdown-item" href="{% url 'index' %}">Index</a>
+      <a class="dropdown-item" href="/admin/">Admin</a>
+    </div>
+  </div>  
+
+</div>

@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block title %}
+  Delete Vendor | VSM
+{% endblock title %}
+{% block content %}
+  <p>Are you sure you want to delete the vendor "{{ vendor.name }}"?</p>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Delete</button>
+  </form>
+{% endblock %}
